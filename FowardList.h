@@ -24,5 +24,6 @@ FowardList* NewFowardList(void);
 void FowardListAddElement(FowardList*, void *element);
 void* FowardListGetElement(FowardList*);
 FowardList* DeleteFowardList(FowardList*);
+void FowardListAddNull(int numberOfNulls);
 
 #endif
